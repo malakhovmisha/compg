@@ -1,0 +1,36 @@
+{
+  "name": "compg",
+  "description": "CLI tool that makes react boilerplate component. Supports es6 or typescript, css or @emotion/styled, emmet-like syntax.",
+  "version": "1.0.2",
+  "type": "module",
+  "files": [
+    "bin/cli.js",
+    "templates",
+    "example.gif",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/malakhovmisha/compg"
+  },
+  "bin": {
+    "compg": "./bin/cli.js"
+  },
+  "keywords": [
+    "compg",
+    "emmet",
+    "component",
+    "react"
+  ],
+  "author": "Mikhail Malakhov <malakhovmisha@yandex.ru>",
+  "license": "MIT",
+  "homepage": "https://github.com/malakhovmisha/compg#readme",
+  "dependencies": {
+    "enquirer": "^2.3.6",
+    "hygen": "^6.2.0",
+    "minimist": "^1.2.6"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
